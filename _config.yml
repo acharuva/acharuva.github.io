@@ -24,7 +24,7 @@ github_username:  acharuva
 
 # Build settings
 markdown: kramdown
-theme: hyde
+theme: minima
 plugins:
   - jekyll-feed
 
