@@ -6,6 +6,36 @@ categories: jekyll update
 ---
 ## Learning from LeetCode
 
+[Recursion to Iteration](http://blog.moertel.com/posts/2013-05-11-recursive-to-iterative.html)
+
+
+#### [868. Binary Gap](https://leetcode.com/problems/binary-gap/description/)
+[solution](https://leetcode.com/articles/binary-gap/)
+
+        My solution worked, but I used string find. 
+        Provided solution was better
+                - It used bit shift operator instead of bin()
+                - It used a state based approach. 
+
+### [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)
+[solution](https://leetcode.com/articles/peak-index-in-a-mountain-array/)
+
+        I usually have trouble with shrinking indexing of this kind. 
+        This is related to binary search
+        Although my solution was correct, the provided solution was 
+        written better using fewer conditions. 
+
+* Other problems involving binary search [278. First Bad Version](https://leetcode.com/problems/first-bad-version/description/) which has the solution and a good 
+discussion of binary search [solution](https://leetcode.com/problems/first-bad-version/solution/)
+One useful tip -- test your algorithm on input size of 2. 
+* Failed several times on this program [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) but ultimately
+got it right
+* [704. Binary Search
+](https://leetcode.com/problems/binary-search/description/) -- in this I used hi index as inclusive which is different from the previous cases. 
+* [Top Coder Tutorial](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search)
+* Python library [bisect.bisect](https://docs.python.org/3.0/library/bisect.html)(arr, key), by default is bisect_right i.e. finds the insertion position to the right of key. 
+
+
 ### [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/)
 [solution](https://leetcode.com/problems/flipping-an-image/solution/)
 
@@ -13,15 +43,10 @@ categories: jekyll update
             - indexing from end arr[~i]
             - inverting binary digits using XOR x^i
 
-
-Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
-
 ### [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)
-[Good solution](https://leetcode.com/problems/third-maximum-number/discuss/183105/Python3-solution-beats-100)
+[solution](https://leetcode.com/problems/third-maximum-number/discuss/183105/Python3-solution-beats-100)
 
 
-        My solution was long. With simple initialization the program could be shortened.
+        My solution was long. With simple initialization the program 
+        could be shortened.
 
-### [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)
-
-        I usually have trouble with shrinking indexing of this kind. 

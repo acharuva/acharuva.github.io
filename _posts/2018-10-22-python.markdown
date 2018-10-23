@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Python Notes"
+date:   2018-10-22 15:27:02 -0700
+categories: jekyll update
+---
+# python notes
+
+```python
+# sorts in ascending order
+sorted(reverse=False)
+```
+
+```python
+def gcd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+```
+
+TIP: If `x` is a power of 3 then `x` is divisible by 3**19
